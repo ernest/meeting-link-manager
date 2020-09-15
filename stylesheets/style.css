@@ -1,0 +1,45 @@
+:root {
+  --main-txt-color: black;
+  --main-sub-color: grey;
+  --accent-txt-color: lightGrey;
+}
+
+body {
+  margin: 0;
+  padding: 100px 35vw;
+}
+
+.day {
+  margin-bottom: 40px;
+  display: none;
+}
+
+.day .event {
+  margin-bottom: 45px;
+}
+
+.day .event p:nth-child(1) {
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+.day .event p:nth-child(1) span {
+  margin-left: 10px;
+  font-size: 18px;
+  color: var(--main-sub-color);
+}
+
+.day .event p:nth-child(2) {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.day .event p:nth-child(3) {
+  color: var(--accent-txt-color);
+  margin-top: 0px;
+}
+
+.day .event p a {
+ text-decoration: none;
+}
