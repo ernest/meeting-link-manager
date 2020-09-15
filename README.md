@@ -1,2 +1,2 @@
-# video-link-manager
-Organize your Zoom meeting Ids and times
+# Video Link Manager
+Have online class or working from home? Organize your Zoom meeting Ids and times.
